@@ -41,7 +41,7 @@ router.get('/:p', function(req, res, next) {
 
   gbPagination.init({
     total: 101,
-    curPage: 1,
+    curPage,
     size: 5,
   })
 
