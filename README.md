@@ -32,7 +32,7 @@ console.log(gbPagination.build())
 var express = require('express');
 var router = express.Router();
 
-const gbPagination = require('pagination.js')
+const gbPagination = require('gb-pagination.js')
 
 
 router.get('/:p', function(req, res, next) {
