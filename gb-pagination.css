@@ -1,0 +1,82 @@
+.gb-pagination {
+    padding: 20px 0
+}
+
+.gb-pagination {
+    padding: 20px 0 20px 1px;
+    color: #666;
+    margin: 0;
+    *zoom: 1;
+    font-size: 12px;
+    vertical-align: middle
+}
+
+.gb-pagination:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+
+.gb-pagination a,
+span.gb-pagination-item,
+.gb-pagination-ellipsis {
+    text-decoration: none;
+    color: #666;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    margin-left: -1px;
+    background-color: #fff;
+    padding: 0 10px;
+    border: 1px solid #ccc
+}
+
+.gb-pagination a {
+    text-decoration: none
+}
+
+.gb-pagination-ellipsis {
+    line-height: 16px;
+    border: none;
+    background: none
+}
+
+.gb-pagination a:hover {
+    color: #1abc9c;
+    text-decoration: none
+}
+
+a.gb-pagination-current,
+a.gb-pagination-current:hover {
+    background: #1abc9c;
+    border-color: #1abc9c;
+    color: #fff
+}
+
+.gb-pagination a.disabled,
+.gb-pagination a.disabled:hover {
+    color: #DFDFDF;
+    background: #fff;
+    border-color: #ccc;
+    cursor: default;
+    pointer-events: none
+}
+
+.gb-pagination-info {
+    display: inline;
+    float: right;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px
+}
+
+.gb-pagination-info b {
+    color: #1abc9c
+}
