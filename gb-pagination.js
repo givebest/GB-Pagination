@@ -10,7 +10,7 @@ defaultConfig = {
     prevText: '上一页',
     nextText: '下一页',
     pageInfo: '当前第<b>{{currentPage}}</b>页/共<b>{{totalPages}}</b>页',
-    goUrl: '/{{n}}'
+    goUrl: '{{n}}'
 }
 
 function GbPagination() {
@@ -107,7 +107,7 @@ GbPagination.prototype.build = function() {
  * 解析URL
  */
 function parseUrl(url) {
-    return url ? url.replace('{{n}}', '') : param
+    return url ? url.replace('{{n}}', '') : ''
 }
 
 module.exports = GbPagination()
